@@ -5,12 +5,12 @@ import Footer from "../components/Footer";
 export default function Layout() {
   return (
     <>
-      <Navbar />
-
-      <main className="min-h-screen">
+      <header className="fixed top-0 left-0 right-0 z-50">
+        <Navbar />
+      </header>
+      <main>
         <Outlet />
       </main>
-
       <Footer />
     </>
   );
