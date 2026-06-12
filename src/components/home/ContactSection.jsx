@@ -31,7 +31,8 @@ const ContactSection = () => {
             Contact <span className="text-primary">Us</span>
           </h1>
           <p className="leading-relaxed text-center text-xl text-zinc-600 max-w-3xl mx-auto">
-            Ready to start your journey? Reach out to us for a free consultation
+            Ready to explore our Full or Virtual Interior Design Services?
+            Connect with our team to bring your dream space to life.
           </p>
         </div>
 
@@ -119,13 +120,13 @@ const ContactSection = () => {
 
               <button
                 type="submit"
-                className="bg-primary text-white hover:bg-black shadow-sm hover:shadow-md w-full py-4 rounded-xl text-lg font-semibold transition-all duration-300 flex items-center justify-center gap-2 group"
+                className="bg-primary text-white hover:bg-black shadow-sm hover:shadow-md w-full py-4 rounded-full text-lg font-semibold transition-all duration-300 flex items-center justify-center gap-2 group"
               >
+                Send Message
                 <Send
                   size={20}
                   className="group-hover:translate-x-1 transition-transform"
                 />
-                Send Message
               </button>
             </form>
           </div>

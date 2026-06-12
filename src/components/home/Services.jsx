@@ -57,15 +57,15 @@ const services = [
 
 const Services = () => {
   return (
-    <div className="w-full bg-text">
+    <div className="w-full">
       <div className="max-w-7xl mx-auto py-28 px-4 flex flex-col lg:flex-row gap-10">
         <div className="w-full">
             {/* Section Title */}
             <div className="max-w-3xl px-4 mb-10 mx-auto text-center">
-              <h1 className="text-4xl lg:text-8xl text-white mb-4 text-center">
-                Our <span className="text-accent">Expertise</span>
+              <h1 className="text-4xl lg:text-8xl mb-4 text-center">
+                Our <span className="text-primary">Expertise</span>
               </h1>
-              <p className="leading-relaxed text-center text-xl text-zinc-300 max-w-3xl mx-auto">
+          <p className="leading-relaxed text-center text-xl text-zinc-600 max-w-3xl mx-auto">
                 Combining design innovation, technical expertise, and
                 construction excellence to create spaces that inspire and
                 endure.
@@ -91,12 +91,12 @@ const Services = () => {
                     transition-all
                     duration-500
                     hover:-translate-y-2
-                    hover:border-accent
+                    hover:border-primary/50
                     hover:shadow-xl
                  "
                 >
                   {/* Number */}
-                  <span className="absolute top-6 right-6 text-6xl font-black text-primary/10 group-hover:text-primary/20 transition-all duration-500">
+                  <span className="absolute top-6 right-6 text-6xl font-black text-primary/10 group-hover:text-primary/30 transition-all duration-500">
                     {String(index + 1).padStart(2, "0")}
                   </span>
 
@@ -131,7 +131,7 @@ const Services = () => {
                   </p>
 
                   {/* Hover line */}
-                  <div className="absolute bottom-0 left-0 h-1 w-0 bg-accent transition-all duration-500 group-hover:w-full" />
+                  <div className="absolute bottom-0 left-0 h-1 w-0 bg-primary transition-all duration-500 group-hover:w-full" />
                 </div>
               );
             })}
