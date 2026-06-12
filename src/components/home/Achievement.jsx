@@ -1,4 +1,3 @@
-import React from "react";
 import CountUp from "react-countup";
 import { useInView } from "react-intersection-observer";
 
@@ -34,7 +33,7 @@ const Achievement = () => {
                   )}
                   +
                 </span>
-                <p className="text-lg font-medium text-slate-800 mt-2">
+                <p className="text-lg font-medium text-zinc-800 mt-2">
                   {stat.label}
                 </p>
               </div>

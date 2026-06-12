@@ -1,11 +1,12 @@
-import Achievement from "../../../cubic-edu-ctg/src/components/home/Achievement";
-import ContactSection from "../components/hero/ContactSection";
+import About from "../components/home/About";
+import ContactSection from "../components/home/ContactSection";
+import Hero from "../components/home/Hero";
 
 export default function Home() {
   return (
     <div className="w-full ">
-      <h1 className="text-4xl font-bold">Welcome to NDream House</h1>
-      <Achievement />
+      <Hero />
+      <About />
       <ContactSection />
     </div>
   );

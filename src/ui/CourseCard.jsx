@@ -1,4 +1,3 @@
-import React from "react";
 import { Clock, ArrowRight, Star } from "lucide-react";
 
 const CourseCard = ({
@@ -10,7 +9,7 @@ const CourseCard = ({
   onEnroll,
 }) => {
   return (
-    <div className="group bg-white rounded-4xl shadow-md hover:shadow-lg transition-all duration-500 border border-slate-100 flex flex-col gap-4 overflow-hidden">
+    <div className="group bg-white rounded-4xl shadow-md hover:shadow-lg transition-all duration-500 border border-zinc-100 flex flex-col gap-4 overflow-hidden">
       {/* Curved Image Header */}
       <div className="w-full aspect-square mb-4 rounded-b-full overflow-hidden group-hover:shadow-xl transition-all duration-500">
         <img
@@ -30,10 +29,10 @@ const CourseCard = ({
 
       {/* Content Section */}
       <div className="flex flex-col px-4 pb-4">
-        <h3 className="text-2xl font-bold text-slate-800 mb-2">{title}</h3>
+        <h3 className="text-2xl font-bold text-zinc-800 mb-2">{title}</h3>
 
-        <div className="flex items-center gap-2 text-slate-500 text-sm mb-4">
-          <Clock size={16} className="text-slate-400" />
+        <div className="flex items-center gap-2 text-zinc-500 text-sm mb-4">
+          <Clock size={16} className="text-zinc-400" />
           <span>{duration}</span>
         </div>
 
@@ -42,7 +41,7 @@ const CourseCard = ({
           {modules.map((mod, idx) => (
             <span
               key={idx}
-              className="text-[11px] font-medium bg-slate-100 text-slate-600 px-2 py-0.5 rounded-full border border-slate-200"
+              className="text-[11px] font-medium bg-zinc-100 text-zinc-600 px-2 py-0.5 rounded-full border border-zinc-200"
             >
               {mod}
             </span>

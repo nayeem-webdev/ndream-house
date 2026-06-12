@@ -16,10 +16,10 @@ const SectionTitle = ({
         <Icon size={16} />
         <span>{topTitle}</span>
       </div>
-      <h2 className="text-4xl lg:text-5xl font-bold text-slate-900 mb-4 text-center">
+      <h2 className="text-4xl lg:text-5xl font-bold text-zinc-900 mb-4 text-center">
         {title} <span className={`text-${color}`}>{titleColor}</span>
       </h2>
-      <p className="leading-relaxed text-center text-xl text-slate-600 max-w-3xl mx-auto">
+      <p className="leading-relaxed text-center text-xl text-zinc-600 max-w-3xl mx-auto">
         {subtitle}
       </p>
     </div>
