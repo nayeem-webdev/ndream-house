@@ -2,6 +2,7 @@ import About from "../components/home/About";
 import ContactSection from "../components/home/ContactSection";
 import FounderCeo from "../components/home/FounderCeo";
 import Hero from "../components/home/Hero";
+import Projects from "../components/home/Projects";
 import Services from "../components/home/Services";
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <About />
       <FounderCeo />
       <Services />
+      <Projects />
       <ContactSection />
     </div>
   );

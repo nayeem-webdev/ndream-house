@@ -1,6 +1,5 @@
 import { useState } from "react";
 import { Phone, MapPin, Mail, Send } from "lucide-react";
-import SectionTitle from "../../ui/SectionTitle";
 const ContactSection = () => {
   const [formData, setFormData] = useState({
     name: "",
@@ -27,14 +26,19 @@ const ContactSection = () => {
     <div className="w-full bg-gray-50">
       <div className="max-w-7xl mx-auto py-28 px-4">
         {/* Section Title Component Logic */}
-        <SectionTitle
-          title="Contact"
-          titleColor="Us"
-          subtitle="Ready to start your journey? Reach out to us for a free consultation"
-          icon={Phone}
-          color="primary"
-          topTitle={"Get In Touch"}
-        />
+        <div className="max-w-3xl px-4 mb-10 mx-auto text-center">
+          <div className="inline-flex items-center space-x-2 bg-primary/10 text-primary px-4 py-2 rounded-full text-sm font-medium mb-4">
+            <Phone size={16} />
+            <span>Get In Touch</span>
+          </div>
+          <h2 className="text-4xl lg:text-5xl text-zinc-900 mb-4 text-center">
+            Contact <span className="text-primary">Us</span>
+          </h2>
+          <p className="leading-relaxed text-center text-xl text-zinc-600 max-w-3xl mx-auto">
+            Ready to start your journey? Reach out to us for a free
+            consultation{" "}
+          </p>
+        </div>
 
         <div className="grid lg:grid-cols-2 gap-12">
           {/* Contact Form */}

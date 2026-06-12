@@ -61,7 +61,7 @@ const Services = () => {
       <div className="max-w-7xl mx-auto py-28 px-4 flex flex-col lg:flex-row gap-10">
         <div className="w-full">
           <div className="mb-16 text-center">
-            <h1 className="mt-4 text-4xl md:text-8xl font-bold text-accent">
+            <h1 className="mt-4 text-4xl md:text-8xl text-accent">
               Our Expertise
             </h1>
           </div>

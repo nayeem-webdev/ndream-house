@@ -1,4 +1,3 @@
-import React from "react";
 
 const CountryCard = ({ data }) => {
   return (
@@ -15,7 +14,7 @@ const CountryCard = ({ data }) => {
 
         <div className="relative h-[40%] w-full backdrop-blur-xs bg-linear-to-t from-black/70 via-black/50 to-transparent p-4 flex flex-col justify-end text-white">
           <div className="space-y-1">
-            <h2 className="text-2xl font-bold">{data.country}</h2>
+            <h2 className="text-2xl">{data.country}</h2>
             <div className="text-sm space-y-0.5">
               <div className="flex justify-between items-center">
                 <span className="opacity-90">Living:</span>

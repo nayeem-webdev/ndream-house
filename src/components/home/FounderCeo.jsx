@@ -4,10 +4,10 @@ const FounderCeo = () => {
       <div className="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row gap-10">
         {/* About Div */}
         <div className="w-2/3 py-28">
-          <h1 className="font-bold text-8xl text-primary">Md Nasir Uddin</h1>
-          <h1 className="mt-2 font-bold text-4xl text-text">Founder & CEO.</h1>
+          <h1 className="text-8xl text-primary">Md Nasir Uddin</h1>
+          <h2 className="mt-2 text-4xl text-text">Founder & CEO.</h2>
           <div className="mt-2 pb-2 border-b-4 border-primary" />
-          <p className="mt-6">
+          <p className="mt-6 text-xl">
             Hi, I'm a Civil Engineer, Interior & Exterior Designer, and the
             Founder & CEO of N Dream House. With a passion for creating
             beautiful, functional spaces, I specialize in designing, building,

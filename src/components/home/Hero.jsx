@@ -19,8 +19,8 @@ const Hero = () => {
             <span>Creating Timeless Interiors Since 2010</span>
           </div>
 
-          <h1 className="text-5xl lg:text-6xl font-bold text-zinc-900 leading-none">
-            Transforming Your Spaces into{" "}
+          <h1 className="text-5xl lg:text-6xl text-zinc-900 leading-none">
+            Transforming Your Spaces into
             <span className="text-primary block mt-2">Timeless Designs.</span>
           </h1>
 
@@ -49,7 +49,7 @@ const Hero = () => {
             <div className="relative z-10 flex items-center justify-center">
               <div className="absolute -z-10 h-72 w-72 rounded-full bg-accent/30 blur-3xl" />
               <img
-                src="/src/assets/Hero Image.png"
+                src="/src/assets/hero-image.png"
                 alt="Successful Graduate"
                 className="h-auto w-full max-w-md animate-float drop-shadow-2xl transition-transform duration-700 hover:scale-105"
               />

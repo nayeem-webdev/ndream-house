@@ -23,7 +23,7 @@ const Navbar = () => {
           {/* First Section - Logo Part */}
           <div className="w-20 relative">
             <img
-              src="/src/assets/Logo-500.png"
+              src="/src/assets/logo-500.png"
               alt="Brand Logo"
               className="h-full w-full object-contain object-left"
             />

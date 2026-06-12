@@ -49,7 +49,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="w-36 px-6 py-4 bg-white rounded-lg">
               <img
-                src="/src/assets/Logo-250.png"
+                src="/src/assets/logo-250.png"
                 alt="Brand Logo"
                 className="w-full object-contain"
               />

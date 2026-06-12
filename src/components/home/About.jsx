@@ -8,22 +8,22 @@ const About = () => {
         <div className="relative z-10 flex items-center justify-center w-1/3">
           <div className="absolute -z-10" />
           <img
-            src="/src/assets/Nasir photo about.png"
+            src="/src/assets/nasir-photo-about.png"
             alt="Successful Graduate"
             className="h-auto w-full max-w-md animate-float transition-transform duration-700 hover:scale-105"
           />
         </div>
         {/* About Div */}
         <div className="w-2/3">
-          <h1 className="font-bold text-8xl text-primary">About</h1>
-          <h1 className="mt-2 font-bold text-3xl text-text">
+          <h1 className="text-8xl text-primary">About</h1>
+          <h2 className="mt-2 text-2xl text-text">
             We craft elegant, thoughtfully curated interiors that transform
             houses into homes. Whether you’ve recently purchased a property and
             are seeking refined furnishings, or a comprehensive interior we are
             here to guide you at every step.
-          </h1>
+          </h2>
           <div className="mt-2 pb-2 border-b-4 border-primary" />
-          <p className="mt-6">
+          <p className="mt-6 text-xl">
             With over 16 years of experience, our talented interior designers
             bring creativity, precision, and a deep understanding of spatial
             harmony to every project. From uncovering your unique style to
