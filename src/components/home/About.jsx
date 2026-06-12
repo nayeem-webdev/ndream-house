@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 const About = () => {
   return (
     <div className="w-full bg-accent">
@@ -13,24 +15,32 @@ const About = () => {
         </div>
         {/* About Div */}
         <div className="w-2/3">
-          <h1 className="font-bold text-6xl bg-accent text-primary">About</h1>
-          <h1 className="mt-2 font-bold text-3xl bg-accent text-text">
+          <h1 className="font-bold text-8xl text-primary">About</h1>
+          <h1 className="mt-2 font-bold text-3xl text-text">
             We craft elegant, thoughtfully curated interiors that transform
             houses into homes. Whether you’ve recently purchased a property and
-            are seeking refined furnishings, bespoke furniture pieces, or a
-            comprehensive interior design consultation, we are here to guide you
-            at every step.
+            are seeking refined furnishings, or a comprehensive interior we are
+            here to guide you at every step.
           </h1>
           <div className="mt-2 pb-2 border-b-4 border-primary" />
           <p className="mt-6">
             With over 16 years of experience, our talented interior designers
             bring creativity, precision, and a deep understanding of spatial
-            harmony to every project. <br /> <br />
-            From uncovering your unique style to reimagining layouts and
-            creating open, flowing living spaces, we ensure every design
-            decision enhances both beauty and functionality. Our goal is to
-            create interiors that are not only visually captivating, but also a
-            true expression of your personality and way of living.
+            harmony to every project. From uncovering your unique style to
+            re-imagining layouts and creating open, flowing living spaces, we
+            ensure every design decision enhances both beauty and functionality.
+            Our goal is to create interiors that are not only visually
+            captivating, but also a true expression of your personality and way
+            of living.{" "}
+            <Link
+              to="/about"
+              className="group inline-block text-primary font-medium transition-transform duration-300 hover:scale-105"
+            >
+              <span className="relative">
+                Learn More
+                <span className="absolute left-0 -bottom-1 h-0.5 w-0 bg-primary transition-all duration-300 group-hover:w-full"></span>
+              </span>
+            </Link>
           </p>
         </div>
       </div>
