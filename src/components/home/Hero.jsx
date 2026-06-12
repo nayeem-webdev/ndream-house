@@ -1,4 +1,3 @@
-import { FaArrowRight } from "react-icons/fa";
 import { SlBadge } from "react-icons/sl";
 import {
   Award,
@@ -6,7 +5,9 @@ import {
   Building2,
   PencilRuler,
   MessageCircleMore,
+  MoveRight,
 } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
@@ -31,14 +32,20 @@ const Hero = () => {
           </p>
 
           <div className="flex flex-col gap-4 sm:flex-row">
-            <button className="group inline-flex h-14 items-center justify-center gap-2 rounded-md bg-primary px-8 text-lg font-semibold text-white shadow-lg transition-all duration-300 hover:bg-primary/90 hover:shadow-xl">
+            <Link
+              to="/contact"
+              className="group inline-flex  px-8 py-4  h-14 items-center justify-center gap-2 rounded-full text-white bg-primary text-lg transition-all duration-300 hover:bg-black hover:shadow-xl"
+            >
               Book Consultation
-              <FaArrowRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
-            </button>
+              <MoveRight className="h-5 w-5 transition-transform group-hover:translate-x-1" />
+            </Link>
 
-            <button className="inline-flex h-14 items-center justify-center rounded-md border-2 border-primary px-8 text-lg font-semibold text-primary transition-all duration-300 hover:bg-primary/5">
+            <Link
+              to="/projects"
+              className="inline-flex h-14 items-center justify-center rounded-full border-2 border-primary px-8 text-lg text-primary transition-all duration-300 hover:bg-primary hover:text-white"
+            >
               Projects
-            </button>
+            </Link>
           </div>
         </div>
 

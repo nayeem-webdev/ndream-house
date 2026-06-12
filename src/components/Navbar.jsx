@@ -43,8 +43,8 @@ const Navbar = () => {
                 </a>
               ))}
               {/* Desktop Register Button */}
-              <button className="bg-primary hover:bg-black text-white font-medium py-2 px-6 rounded-lg transition duration-300 transform hover:scale-105 active:scale-95">
-                Book Now
+              <button className="bg-primary hover:bg-black text-white font-bold py-2 px-6 rounded-lg transition duration-300 transform hover:scale-105 active:scale-95">
+                G Drive
               </button>
             </div>
 

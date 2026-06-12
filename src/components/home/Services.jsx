@@ -39,7 +39,7 @@ const services = [
   {
     title: "3D Modeling",
     description:
-      "Realistic visualizations to bring your ideas to life before construction.",
+      "Realistic visualizations to bring your ideas to life.",
     icon: Box,
   },
   {
@@ -60,11 +60,17 @@ const Services = () => {
     <div className="w-full bg-text">
       <div className="max-w-7xl mx-auto py-28 px-4 flex flex-col lg:flex-row gap-10">
         <div className="w-full">
-          <div className="mb-16 text-center">
-            <h1 className="mt-4 text-4xl md:text-8xl text-accent">
-              Our Expertise
-            </h1>
-          </div>
+            {/* Section Title */}
+            <div className="max-w-3xl px-4 mb-10 mx-auto text-center">
+              <h1 className="text-4xl lg:text-8xl text-white mb-4 text-center">
+                Our <span className="text-accent">Expertise</span>
+              </h1>
+              <p className="leading-relaxed text-center text-xl text-zinc-300 max-w-3xl mx-auto">
+                Combining design innovation, technical expertise, and
+                construction excellence to create spaces that inspire and
+                endure.
+              </p>
+            </div>
 
           <div className="grid grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-6">
             {services.map((service, index) => {
